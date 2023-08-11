@@ -4,6 +4,7 @@
 - [Commands](commands.md)
 - [New Project](newproject.md)
 - [Diagrams](swim.svg)
+-  [Problems](Problems.md)
 <br>
 <br>
 __ Note: __  tcsp_shop is the main program for swimming pool
@@ -13,17 +14,18 @@ __ Note: __  tcsp_shop is the main program for swimming pool
 
 [Phonenumbers](https://django-phonenumber-field.readthedocs.io/en/latest/index.html)
 
-| Command                       | What it does         | Notes |
-|-------------------------------|----------------------|-------|
-| source swim/bin/activate      | activate enviornment |       |
-| pip freeze > requirements.txt |                      |       |
-| pip install mysqlclient       |                      |       |
-| pip install pillow            |                      |       |
+| Command                       | What it does         |
+|-------------------------------|----------------------|
+| source swim/bin/activate      | activate enviornment |
+| pip freeze > requirements.txt |                      |
+| pip install -r requirements.txt | Install requirements |
+| pip install mysqlclient       |                      |
+| pip install pillow            |                      |
 |                               |                      |       |
-|   stripe listen --forward-to localhost:8000/payment/webhook/                            | activate stripe      |       |
-|                               |                      |       |
-|                               |                      |       |
-|                               |                      |       |
+|   stripe listen --forward-to localhost:8000/payment/webhook/                            | activate stripe      |
+|                               |                      |
+|                               |                      |
+|                               |                      |
 
 
 
